@@ -1,16 +1,18 @@
 <script setup>
+const imageUrl = (path) => new URL(`../media/portfolio/${path}`, import.meta.url).href
+
 const projects = [
   {
     title: "Self Driving Challenge",
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
         {
-            src: "/media/portfolio/SDC1.jpg",
+      src: imageUrl("SDC1.jpg"),
             alt: "Self Driving Challenge Screenshot 1",
             width: "100%",
         },
         {
-            src: "/media/portfolio/SDC2.png",
+      src: imageUrl("SDC2.png"),
             alt: "Self Driving Challenge Screenshot 2",
             width: "100%",
         }
@@ -21,17 +23,17 @@ const projects = [
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
         {
-            src: "/media/portfolio/Tidalis1.png",
+        src: imageUrl("Tidalis1.png"),
             alt: "Tidalis Screenshot 1",
             width: "100%",
         },
         {
-            src: "/media/portfolio/Tidalis2.png",
+        src: imageUrl("Tidalis2.png"),
             alt: "Tidalis Screenshot 2",
             width: "100%",
         },
         {
-            src: "/media/portfolio/Tidalis3.png",
+        src: imageUrl("Tidalis3.png"),
             alt: "Tidalis Screenshot 3",
             width: "100%",
         }
@@ -42,7 +44,7 @@ const projects = [
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
         {
-            src: "/media/portfolio/ATM.jpg",
+        src: imageUrl("ATM.jpg"),
             alt: "ATM Screenshot",
             width: "80%",
         }
@@ -53,7 +55,7 @@ const projects = [
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
       {
-        src: "/media/portfolio/StopLight.jpg",
+        src: imageUrl("StopLight.jpg"),
         alt: "Stoplight Screenshot",
         width: "50%",
       }
@@ -64,7 +66,7 @@ const projects = [
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
       {
-        src: "/media/portfolio/ACM.png",
+        src: imageUrl("ACM.png"),
         alt: "ACM Screenshot",
         width: "80%",
       }
@@ -75,7 +77,7 @@ const projects = [
     description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
     images: [
       {
-        src: "/media/portfolio/Lift.png",
+        src: imageUrl("Lift.png"),
         alt: "Lift Screenshot",
         width: "40%",
       }
