@@ -4,7 +4,7 @@ const imageUrl = (path) => new URL(`../media/portfolio/${path}`, import.meta.url
 const projects = [
   {
     title: "Self Driving Challenge",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Vanuit het RDW is er een challenge opgezet om een zelfrijdende kart te maken. Ik en mijn team hebben meegedaan aan de closed categorie, wat betekend dat we een gebouwde kart krijgen en dat we alleen de software hoeven te bouwen.",
     images: [
         {
       src: imageUrl("SDC1.jpg"),
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: "Localisatie van schepen in de haven",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Tidalis is geinteresseerd geweest in het localiseren van schepen in de haven met camera's omdat radar niet altijd even accuraat is. Ik en mijn team hebben een proof of concept gemaakt om te laten zien dat het mogelijk is om schepen te localiseren met camera's.",
     images: [
         {
         src: imageUrl("Tidalis1.png"),
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: "ATM",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Vanuit de opleiding kregen wij een project waarbij wij een pinautomaat moesten maken. Ik en mijn team hebben een pinautomaat gemaakt die ook connectie kan maken met een centrale server zodat je ook bij andere pinautomaten kan pinnen.",
     images: [
         {
         src: imageUrl("ATM.jpg"),
@@ -52,7 +52,7 @@ const projects = [
   },
   {
     title: "Stoplight",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Als keuzevak hebben wij een project gekregen waarbij wij stoplichten moesten maken. Dit zou dan gebruikt worden om kinderen op de basisschool te leren oversteken.",
     images: [
       {
         src: imageUrl("StopLight.jpg"),
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: "ACM",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Vanuit de opleiding kregen wij een project waarbij wij een container mover moesten maken. Dit autotje moest dan over een parkours rijden en stoppen bij het einde.",
     images: [
       {
         src: imageUrl("ACM.png"),
@@ -74,7 +74,7 @@ const projects = [
   },
   {
     title: "Lift",
-    description: "Cool filler text that serves no real purpose but is here to fill space and make the website look more complete and less empty.",
+    description: "Vanuit de opleiding kregen wij een project waarbij wij een lift moesten maken. Ik en mijn team hebben een lift gemaakt die werkt met een motor en een sensorkoppeling.",
     images: [
       {
         src: imageUrl("Lift.png"),
