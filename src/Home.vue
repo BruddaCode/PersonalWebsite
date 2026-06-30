@@ -24,11 +24,14 @@ import nl from '../media/home/NL.svg'
     <br>
     <div class="home-content">
         <div class="intro-item">
-            <h2>Introductie</h2>
-            <p>Ik ben Fabio en woon in Pernis-Rotterdam. Als hobby houd ik mij bezig met elektronica, computers en mechanica. Ik ben altijd zeer nieuwsgierig hoe alles werkt en met elkaar samenwerkt, welke techniek ergens achter schuil gaat, hoe het aangestuurd wordt en of het ook anders kan. Daarom heb ik gekozen voor de opleiding Technische Informatica aan de Hogeschool Rotterdam
-                Ik vind het leuk om nieuwe dingen te leren en nieuwe uitdagingen aan te gaan, proberen of iets juist wel kan.
-                Ik werk graag in teamverband en help mensen als ze vast lopen en ik hun daarbij kan ondersteunen om te zoeken naar een oplossing. Ik kan mij goed uitdrukken what mij en mijn omgeving helpt als ik iets moet uitleggen of overbrengen maar ook bij discussies waar ik al snel de rol pak van bemiddelaar om de rust te bewaren.
-            </p>
+            <div class="intro-text">   
+                <h3>Technische Informatica Student | Zoekt naar stage</h3>
+                <h2>Introductie</h2>
+                <p>Ik ben Fabio en woon in Pernis-Rotterdam. Als hobby houd ik mij bezig met elektronica, computers en mechanica. Ik ben altijd zeer nieuwsgierig hoe alles werkt en met elkaar samenwerkt, welke techniek ergens achter schuil gaat, hoe het aangestuurd wordt en of het ook anders kan. Daarom heb ik gekozen voor de opleiding Technische Informatica aan de Hogeschool Rotterdam
+                    Ik vind het leuk om nieuwe dingen te leren en nieuwe uitdagingen aan te gaan, proberen of iets juist wel kan.
+                    Ik werk graag in teamverband en help mensen als ze vast lopen en ik hun daarbij kan ondersteunen om te zoeken naar een oplossing. Ik kan mij goed uitdrukken what mij en mijn omgeving helpt als ik iets moet uitleggen of overbrengen maar ook bij discussies waar ik al snel de rol pak van bemiddelaar om de rust te bewaren.
+                </p>
+            </div>
             <img :src="headshot" alt="Home Image">
         </div>
 
